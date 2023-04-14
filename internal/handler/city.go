@@ -8,8 +8,9 @@ import (
 	"strconv"
 	"unicode"
 
-	
-	cities 
+	"github.com/go-chi/chi/v5"
+	cities "github.com/marat346/practiceResult-25-"
+	"github.com/rs/zerolog/log"
 )
 
 // getFull processes a request to get information about the city by id.

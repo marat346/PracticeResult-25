@@ -6,7 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	cities 
+	cities "github.com/marat346/practiceResult-25-"
+	"github.com/marat346/practiceResult-25-/tree/master/internal/handler"
+	"github.com/marat346/practiceResult-25-/tree/master/internal/repository"
+	"github.com/marat346/practiceResult-25-/tree/master/internal/service"
+	"github.com/rs/zerolog/log"
+	"github.com/spf13/viper"
 )
 
 func main() {
