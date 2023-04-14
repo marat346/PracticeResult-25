@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	//<-----------------
+
+	"github.com/rs/zerolog/log"
 )
 
 type messageResponse struct {

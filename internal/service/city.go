@@ -1,7 +1,8 @@
 package service
 
 import (
-	cities //-------------------------
+	cities "github.com/marat346/practiceResult-25-"
+	"github.com/marat346/practiceResult-25-/tree/master/internal/repository"
 )
 
 type CityService struct {

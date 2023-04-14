@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	cities <-----------------
+	cities "github.com/rs/zerolog/log"
 )
 
 type CityListDB struct {
